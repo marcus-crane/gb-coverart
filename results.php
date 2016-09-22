@@ -5,7 +5,7 @@
 <body>
 	<?php
 
-	$key = "fd48a3f22af81f996ae1551efe7c6a3bbf62fb40"; // Load the API key into a variable for easy use later
+	$key = "GIANT_BOMB_API_KEY"; // Load the API key into a variable for easy use later
 
 	$search = $_POST['name'];
 	$query = "http://www.giantbomb.com/api/search/?api_key=" . "$key" . "&format=xml&query=" . "$search" . "&resources=game"; // Inserting the user's query into a search string to try and find the ID for the game being searched. We need that ID to perform the search!
